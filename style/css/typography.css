@@ -1,0 +1,57 @@
+
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+/* Typography (basic) */
+body, h4, h5, p, li, label, input { font:11px/18px 'helvetica', 'microsoft sans serif', Verdana, Arial, Helvetica, sans-serif; color:#fff }
+h1, h2, h2 label, h3, p.description { font-family:Palatino, "Palatino Linotype", "Book Antiqua", Baskerville, BaskervilleBE, BaskervilleOldFace, Garamond, "Times New Roman", serif }
+h1 { font-size:26px; line-height:36px; font-style:bold }
+h1#logo {color: #ff9;}
+h2, h2 label { font-size:24px; line-height:24px }
+h3, p.description { font-size:15px; line-height:22px }
+p, .post ul, .post ol { margin:0 0 20px 0 }
+a { color:#444; text-decoration:none outline: none;}
+a:hover { color: #888; }
+input { color:#000 }
+
+/* Typography (advanced) */
+p.description { width:240px; margin:40px 0 40px 380px; padding:0 0 0 20px; border-left:1px solid #666 }
+ul.nav { display:inline; }
+ul.nav li { font-size:14px; line-height:14px;  display:inline; border-left:1px solid #666; padding:0 10px }
+ul.nav li#homeButton { border:none; padding:0 10px 0 0 }
+ul.nav li a { color:#444 }
+ul.nav li a:hover { color:#888; border:none }
+ul.nav .current_page_item a { color:#ff9 !important; }
+div.portfolioItem h2 { background:url(../images/semiTransparent01.png); padding:10px 20px 10px 20px; position:absolute; top:-44px; left:-20px }
+div.portfolioItem p { margin:10px 0 0 0 }
+body.single div.portfolioItem ul { position:absolute; top:230px; left:10px }
+body.single div.portfolioItem p { margin:10px 0 0 220px }
+.portfolioItem .image a:hover { border: none !important; }
+div.blogFocus .post h2 { background:url(../images/semiTransparent01.png); padding:10px 20px 10px 20px; position:absolute; top:-44px; left:-20px }
+div.blogFocus .post h3 { font-size:24px; line-height:24px }
+body.home .post h2 { margin:0 0 20px 0 }
+p.entry-meta { color:#666 }
+div.recentProjects h2 a { font-size:15px; line-height:22px }
+ul.sidebar li h2 { margin:40px 0 0 0 }
+ul.sidebar li.search h2 { margin:0 }
+div#comments h2 { margin:40px 0 0 0 }
+div#navigation div.wp-pagenavi span.pages { background:none; color:#fff; border:none }
+div#navigation div.wp-pagenavi span.current { background:#000; color:#fff; border:none }
+div#navigation div.wp-pagenavi a { background:#ff9; color:#000; border:none }
+div#navigation div.wp-pagenavi a:hover { background:#fff }
+div.footer div div.credits { color:#444 }
+div.footer p { margin:0 }
+div.footer p.disclaimer { margin-left: 0; margin-bottom: 20px; margin-right: 0px; margin-top: 20px; color: #444 }
+div.footer p.disclaimer a img {text-decoration: none; margin-left: 0px; margin-bottom: 0px; border-color: #444; border-width: 0px; border-style: solid; margin-top: 0px; padding: 5px; margin-right: 20px;}
+a.commentPermalink { color:#444; border:none }
+a.commentPermalink:hover { color:#444; border:none }
+
+ul.recentEntries.tagPage li { margin:20px 0; border-bottom:1px solid #666; position:relative }
+ul.recentEntries.tagPage h3, ul.recentEntries.tagPage p { padding:0 0 0 120px }
+ul.recentEntries.tagPage h3.entry-type { position:absolute; top:0; left:0; padding:0 }
+
+/* Typography (styles for text within posts) */
+.post blockquote p { font-style:italic; padding:0 0 0 20px; border-left:5px solid #666 }
+.post ul li { list-style:disc }
+.post ol li { list-style:decimal }
+

@@ -1,0 +1,12 @@
+
+/* ALTERNATIVE 01 */
+/* This stylesheet overrides existing rules to use a new body background image and matching text colour styles. */
+/* ----------------------------------------- */
+
+body { background:#2c2419 url(../images/body02.jpg) top center no-repeat fixed }
+
+ul.nav li, p.description, div.footer div div.credits, div.blogOnHomePage .post, ul.sidebar { border-left:1px solid #000 }
+.post blockquote p { border-left:5px solid #000 }
+ul.recentEntries.tagPage li, div#comments ol.commentlist li.comment { border-bottom:1px solid #000 }
+p.entry-meta, div.footer div div.credits, div.footer p.disclaimer { color:#c96 }
+ul.nav li a, div.footer div div.feeds ul li a { color:#ff9 }

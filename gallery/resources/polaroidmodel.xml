@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<photos>
+    <photo desc="{filename}" url="{pathname}"></photo>
+</photos>

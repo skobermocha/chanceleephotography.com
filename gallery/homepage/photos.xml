@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gallery title="" frameColor="0xFFFFFF" frameWidth="10" imagePadding="500" displayTime="3.00">
+    <image id="1">
+        <filename>images/(20 of 195).jpg</filename>
+        <caption/>
+        <width>5616</width>
+        <height>3744</height>
+    </image>
+
+    <image id="2">
+        <filename>images/Picture 094.jpg</filename>
+        <caption/>
+        <width>960</width>
+        <height>640</height>
+    </image>
+</gallery>

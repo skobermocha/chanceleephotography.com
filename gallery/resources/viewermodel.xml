@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gallery title="" frameColor="0xFFFFFF" frameWidth="10" imagePadding="500" displayTime="3.00">
+    <image id="{id}">
+        <filename>{pathname}</filename>
+        <caption></caption>
+        <width>{callback:discoverwidth}</width>
+        <height>{callback:discoverheight}</height>
+    </image>
+</gallery>

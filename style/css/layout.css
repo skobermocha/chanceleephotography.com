@@ -1,0 +1,30 @@
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+/* Main layout blocks */
+body { background:#000 /* url(../images/body01.jpg) */ top center no-repeat fixed; border-top:10px solid #141414; }
+div { position: relative;}
+img { margin:10px 0; }
+div.wrapper { margin:0 auto; width: 960px;padding-top: 20px; position: relative;}
+div.logo { position:absolute; top: -13px; left:25px;}
+div.nav { position:absolute; top: 22px; right: -10px;}
+div.photo { margin:10px auto; text-align: center;}
+div.photo img { background-color: white; padding: 3px;}
+div.footer { width:100%; margin:40px 0 0 0; padding:40px 0; background-color: black; height: 125px; }
+div.footertext { width: 960px;	margin: auto ;}
+br.dirtyLittleTrick { clear:both; height:1px; margin:-1px 0 0 0 }
+
+/* Advanced layout */
+div.footer div.footertext div.feeds { position:absolute; top:0; left: 200px }
+div.footer div.footertext div.feeds ul li a { display:block; margin:10px 0; padding:0 0 0 23px; height:16px; width:170px; background:url(../images/feedIcon01.gif) top left no-repeat; color:#444 }
+div.footer div.footertext div.feeds ul li a:hover { border:none; color:#888 }
+div.footer div.footertext div.credits { position:absolute; top:0; left: 250px; width:380px; padding:0 0 0 20px; margin:0 0 0 220px; border-left:1px solid #666 }
+
+#flashcontent { width:80%; margin: auto; text-align: center;}
+
+#flickr {margin-top:20px;}
+#flickr a img { float:left; margin:0 0 8px 8px; padding:4px; width:62px; height:62px; border:1px solid gray;}
+.orderlink{margin: 20px auto 5px auto; text-align: center; text-transform: uppercase;}
+
+#hiddentext{text-indent: -1000px; overflow: hidden; display: none;}
